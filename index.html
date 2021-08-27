@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top" id="my-navbar">
+        <div class="container">
+            <a href="#" class="fs-4 navbar-brand fw-bold">
+                <!-- <i class="fas fa-code fa-lg" id="nav-logo"></i> -->
+                MAIS
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-sm-3 p-0 px-sm-3">
+                        <a href="#home" class="fs-5 nav-link fw-bold">Home</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-sm-3 p-0 px-sm-3">
+                        <a href="#about" class="fs-5 nav-link fw-bold">About</a>
+                    </li>
+                    <!-- <li class="nav-item p-0 px-sm-3">
+                        <a href="#skills" class="nav-link fw-bold">Skills</a>
+                    </li> -->
+                    <li class="nav-item mx-0 mx-sm-3 p-0 px-sm-3">
+                        <a href="#contact" class="fs-5 nav-link fw-bold">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->    
+
+    <!-- Home Section Start -->
+    <section class="p-5 bg-light text-center text-sm-start" id="home">
+        <div class="container">
+            <div class="d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-between">
+                <div class="py-3 p-sm-0" id="my-status">
+                    <h2 class="fw-bold text-primary" id="name">Hello I'm <span class="text-success">Mais Shabanov</span></h1>
+                    <h4 class="">Frontend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, numquam. Minus iure culpa nemo cum itaque optio, quod libero praesentium temporibus, quibusdam sapiente unde autem officia a quam excepturi perferendis?</p>
+                    <a class="btn btn-lg btn-primary" href="#contact">Contact Me</a>
+                </div>
+                <img class="p-0 p-sm-5 img-fluid w-50 rounded-circle order-first" src="img/my-picture-green.jpg" id="my-picture">
+            </div>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Skills Section Start -->
+    <section class="p-5 bg-dark" id="about">
+        <div class="row g-5 align-items-center justify-content-around">
+            <h1 class="text-success text-center">About Me</h1>
+            <div class="col-10 col-sm-5" id="my-skills">
+                <div style="border: none;" class="card bg-transparent">
+                    <div class="skill-item p-2">
+                        <h3 class="fs-4 text-light">Html</h3>
+                        <div class="progress" style="height: 0.8rem;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    </div>
+                    <div class="skill-item p-2">
+                        <h3 class="fs-4 text-light">Css</h3>
+                        <div class="progress" style="height: 0.8rem;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item p-2">
+                        <h3 class="fs-4 text-light">Js</h3>
+                        <div class="progress" style="height: 0.8rem;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item p-2">
+                        <h3 class="fs-4 text-light">Bootstrap</h3>
+                        <div class="progress" style="height: 0.8rem;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item p-2">
+                        <h3 class="fs-4 text-light">Sass/Scss</h3>
+                        <div class="progress" style="height: 0.8rem;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <img class="col-10 col-sm-5 img-fluid py-4 py-sm-0" src="img/fundamentals.svg" alt=""> -->
+            <div class="col-10 col-sm-5" id="about-name">
+                <div style="border: none;" class="card bg-transparent text-center text-sm-start text-light">
+                    <p class="my-sm-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, explicabo fugit nemo veniam minus omnis dolore quibusdam enim similique rem adipisci a! Exercitationem quasi quia optio ad dolor aliquam magnam.</p>
+                    <p class="mb-sm-3 mt-sm-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit qui dignissimos ratione natus ipsum dolorum sed dolorem, vel nulla illum inventore provident minima architecto pariatur, adipisci excepturi aut! Placeat, delectus?</p>
+                    <a href="#" class="mt-sm-4 btn bg-success text-light">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Social Medias Section Start -->
+    <div class="section bg-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <h1 class="my-1 text-success text-center">Follow Me</h1>
+                <div class="col-12 col-sm-4 media-animation">
+                    <div class="card p-2 bg-transparent text-center mx-5 mx-sm-0">
+                        <i class="my-2 fab fa-github fa-2x"></i>
+                        <h5>mshabanoff</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 media-animation">
+                    <div class="card p-2 bg-transparent text-center mx-5 mx-sm-0">
+                        <i class="my-2 fab fa-linkedin fa-2x"></i>
+                        <h5>Mais Shabanov</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 media-animation">
+                    <div class="card p-2 bg-transparent text-center mx-5 mx-sm-0">
+                        <i class="my-2 fab fa-facebook fa-2x"></i>
+                        <h5>Mais Shabanov</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Social Medias Section End -->
+    
+    <!-- Contact Section Start-->
+    <section id="contact" class="bg-dark py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-6 text-center" id="contact-animation">
+                    <h1 class="my-1 text-success">Contact Me</h1>
+                    <input type="text" class="form-control p-2 my-4 rounded bg-light border-light text-success" placeholder="Full Name">
+                    <input type="email" class="form-control p-2 my-4 rounded bg-light border-light" placeholder="E-mail">
+                    <textarea class="form-control p-2 my-4 rounded bg-light border-light" rows="3" placeholder="Write Your Message Here"></textarea>
+                    <a href="#" class="px-sm-5 btn btn btn-lg btn-primary">Send Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
